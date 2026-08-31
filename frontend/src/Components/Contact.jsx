@@ -6,7 +6,10 @@ import { AppContext } from "../Context/AppContext";
 const Contact = () => {
   const { theme, setTheme } = useContext(AppContext);
   return (
-    <div className="mt-30 sm:mt-40 mx-8 sm:mx-40 flex flex-col gap-4 pb-16">
+    <div
+      id="contact"
+      className="mt-30 sm:mt-40 mx-8 sm:mx-40 flex flex-col gap-4 pb-16"
+    >
       <h1 className="text-xl font-bold tracking-wide">Contact</h1>
       <p className="text-[13px] leading-4.5 text-gray-400/80 light:text-gray-500 mt-2 sm:mr-25">
         Computer Science Engineering student at Sagar Institute of Research and
@@ -20,7 +23,7 @@ const Contact = () => {
           aashutosh13579@gmail.com
         </a>
       </div>
-      <div className="flex gap-4 sm:gap-5 -ml-1 mt-1 sm:mt-4">
+      <div id="getInTouch" className="flex gap-4 sm:gap-5 -ml-1 mt-1 sm:mt-4">
         <a
           href="https://www.linkedin.com/in/aashutosh-soni-ats5858"
           target="_blank"

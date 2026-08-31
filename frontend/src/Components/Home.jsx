@@ -7,15 +7,6 @@ const Home = () => {
   return (
     <div className="">
       <div className="flex flex-col items-center gap-5 pt-16 sm:pt-23">
-        {/* {theme === "dark" ? (
-          <img className="w-38 sm:w-40" src={assets.heroImage} alt="" />
-        ) : (
-          <img
-            className="w-40 sm:w-43 mask-b-from-70% mask-radial-[50%_90%] mask-radial-from-85%"
-            src={assets.heroImage}
-            alt=""
-          />
-        )} */}
         <img className="w-38 sm:w-40" src={assets.heroImage} alt="" />
         <h1 className="text-4xl font-bold text-center leading-11 heading mx-3 sm:mx-0 light:text-slate-800/90">
           Building scalable
@@ -33,9 +24,12 @@ const Home = () => {
           into real products while continuously learning modern technologies.
         </p>
         <div className="flex gap-4 mt-5">
-          <button className="py-2.5 px-4.5 text-sm font-semibold rounded-full ring hover:text-black hover:bg-white cursor-pointer transition-colors duration-300 ease-in-out">
+          <a
+            href="#getInTouch"
+            className="py-2.5 px-4.5 text-sm font-semibold rounded-full ring hover:text-black hover:bg-white cursor-pointer transition-colors duration-300 ease-in-out"
+          >
             Get In Touch
-          </button>
+          </a>
 
           <a
             href="/Aashutosh-Soni-CV.pdf"

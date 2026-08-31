@@ -3,7 +3,7 @@ import { experiences } from "../assets/assets";
 
 const Experience = () => {
   return (
-    <div className="mt-25">
+    <div id="experience" className="mt-25">
       <h1 className="text-2xl font-extrabold text-center bg-linear-to-b from-[#5BADFF] to-[#1373D1] bg-clip-text text-transparent tracking-wide">
         EXPERIENCE
       </h1>

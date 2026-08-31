@@ -15,18 +15,33 @@ const Navbar = () => {
         )}
       </div>
       <div className="hidden sm:flex items-center gap-13">
-        <p className="hover:text-white cursor-pointer transition-colors">
+        <a
+          href="#home"
+          className="hover:text-white cursor-pointer transition-colors"
+        >
           Home
-        </p>
-        <p className="hover:text-white cursor-pointer transition-colors">
+        </a>
+
+        <a
+          href="#projects"
+          className="hover:text-white cursor-pointer transition-colors"
+        >
           Projects
-        </p>
-        <p className="hover:text-white cursor-pointer transition-colors">
+        </a>
+
+        <a
+          href="#experience"
+          className="hover:text-white cursor-pointer transition-colors"
+        >
           Experience
-        </p>
-        <p className="hover:text-white cursor-pointer transition-colors">
+        </a>
+
+        <a
+          href="#contact"
+          className="hover:text-white cursor-pointer transition-colors"
+        >
           Contact
-        </p>
+        </a>
       </div>
       <div className="sm:hidden">
         {theme === "dark" ? (

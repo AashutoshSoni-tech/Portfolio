@@ -19,7 +19,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="mt-18 flex flex-col items-center gap-12">
+    <div id="projects" className="mt-18 flex flex-col items-center gap-12">
       <h1 className="text-2xl font-extrabold text-center bg-linear-to-b from-[#FF8660] to-[#D5491D] bg-clip-text text-transparent tracking-wide">
         PROJECTS
       </h1>
